@@ -1,0 +1,13 @@
+# use glob syntax.
+syntax: glob
+
+*.pyc
+*.swp
+*.orig
+*.DS_Store
+*.log
+*.cache
+.svn*
+.git*
+*.egg-info
+Thumbs.db
