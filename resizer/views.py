@@ -5,7 +5,7 @@ from easy_thumbnails.exceptions import InvalidImageFormatError
 import re
 
 
-SIZE_RE = re.compile(r'(\d+),(\d+)')
+SIZE_RE = re.compile(r'^(\d+),(\d+)$')
 
 
 def resize(request, path):
