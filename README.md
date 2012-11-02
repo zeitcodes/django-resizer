@@ -6,7 +6,7 @@ Django Resizer allows images to be dynamically resized and/or cropped through a 
 Installation
 ------------
 
-Run `pip install hg+https://bitbucket.org/nextscreenlabs/django-accounts`
+Run `pip install django-resizer`
 
 Add `resizer` to your `INSTALLED_APPS` setting:
 

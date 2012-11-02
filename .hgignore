@@ -5,9 +5,15 @@ syntax: glob
 *.swp
 *.orig
 *.DS_Store
+Thumbs.db
 *.log
 *.cache
-.svn*
-.git*
 *.egg-info
-Thumbs.db
+*.svn
+
+syntax: regexp
+
+^.git/
+^build/
+^dist/
+^.tox/
